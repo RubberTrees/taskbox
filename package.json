@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "jest-vue-preprocessor": "^1.7.1",
     "vue": "^3.0.0"
   },
   "devDependencies": {
@@ -30,6 +31,7 @@
     "@storybook/addon-essentials": "^6.4.0",
     "@storybook/addon-interactions": "^6.4.0",
     "@storybook/addon-links": "^6.4.0",
+    "@storybook/addon-storyshots": "^6.4.19",
     "@storybook/testing-library": "^0.0.7",
     "@storybook/vue3": "^6.4.0",
     "@vue/cli-plugin-babel": "~4.5.0",
