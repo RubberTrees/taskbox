@@ -23,7 +23,7 @@ export default {
   props: {
     task: {
       type: Object,
-      required: true,
+      //required: true,
       default: () => ({ id: '', state: '', title: '' }),
       validator: task => ['id', 'state', 'title'].every(key => key in task),
     },
