@@ -7,13 +7,13 @@
       </div>
     </template>
 
-    <template v-else-if="isEmpty" class="list-items">
+    <div v-else-if="isEmpty" class="list-items">
       <div class="wrapper-message">
         <span class="icon-check" />
         <div class="title-message">You have no tasks</div>
         <div class="subtitle-message">Sit back and relax</div>
       </div>
-    </template>
+    </div>
 
     <template v-else>
       <Task v-for="task in tasksInOrder"
@@ -34,7 +34,7 @@ export default {
   components: { Task },
   props: {
     tasks: { type: Array,
-    // required: true,
+    required: true,
     default: () => [] },
     loading: { type: Boolean, default: false },
   },
