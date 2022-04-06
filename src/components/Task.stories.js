@@ -24,7 +24,7 @@ const Template = args => ({
     setup() {
         return { args, ...actionsData };
     },
-    template: '<Task v-bind="args"/>',
+    template: '<Task v-bind="args" />',
 });
 export const Default = Template.bind({});
 Default.args = {
