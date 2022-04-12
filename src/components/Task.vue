@@ -1,7 +1,7 @@
 <template>
   <div :class="classes">
     <label class="checkbox">
-      <input type="checkbox" :checked="isChecked" disabled name="checked" />
+      <input type="checkbox" :checked="isChecked" name="checked" />
       <span class="checkbox-custom" @click="archiveTask" :aria-label="'archiveTask-' + task.id" />
     </label>
     <div class="title">
